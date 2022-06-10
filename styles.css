@@ -13,6 +13,12 @@ h1 {
   border-right: 1px solid rgba(113, 11, 11, 0.3);
   width: 300px;
   box-shadow: 4px 4px 5px grey;
+  transition: all 1s;
+  margin-left: 10px;
+}
+
+h1:hover {
+  transform: scale(1.1);
 }
 
 img {
